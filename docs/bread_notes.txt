@@ -1,0 +1,4 @@
+## database schema info
+https://docs.google.com/spreadsheets/d/1vLWvez8NWOgkd6cQe-QCuxX5UQbHec71F2-TTE45GWY/edit#gid=0
+
+./load_data.sh neo4j ftphl true '/Users/hthai00/Google\ Drive/projects/bread/' ""
