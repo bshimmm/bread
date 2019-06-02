@@ -38,7 +38,7 @@ if [ "${is_schema_setup_success}" == "true" ]; then
   echo "Copying main data to ${db_home_import_dir} to prepare for data load..."
   eval cp -f data/*.csv "${db_home_import_dir}"
   echo "Loading main data..."
-  cat scripts/cypher/main_data.cyp | /apps/neo4j/bin/cypher-shell --debug --format verbose -a $host -u $username -p $password
+  cat scripts/cypher/main_data.cyp | ${db_home_dir}/bin/cypher-shell --debug --format verbose -a $host -u $username -p $password
   # echo "Loading role and permission data..."
   # cat scripts/cypher/load_role.cyp | /apps/neo4j/bin/cypher-shell --debug --format verbose -a $host -u $username -p $password
   # echo "Loading user data..."
