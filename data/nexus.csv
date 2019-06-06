@@ -1,1 +1,3 @@
-id|title|desc|start_date|end_date|approved|status|upvote
+id|title|desc|start_date|end_date|approved|status|upvote|city_id|zipcode_id
+21994674-a2c5-4125-b4ca-bed9b53fe367|bread (MVP)|bread is a platform made to solve this issue. Make connections in order to accomplish and showcase your activities and surround yourself with like-minded peeps.|1558291145|1577731145|Y|A|37|b599dee6-a91f-52cd-b4cc-1f3e5364369e|6d060ca1-33c1-4e39-9eab-734c860db09a
+a936ae32-b4b7-4322-85b8-41820edc27ba|christian (MVP)|Christian is a service that disables your phone when driving.|1559414345|1577731145|Y|A|4|641396d5-55f2-4c5b-bee4-10459f7dc5d3|bb8ac730-7af8-4c58-941d-65fb6cdd0cdd

@@ -1,4 +1,21 @@
+## repo
+https://github.com/bshimmm/bread
+
+
 ## database schema info
 https://docs.google.com/spreadsheets/d/1vLWvez8NWOgkd6cQe-QCuxX5UQbHec71F2-TTE45GWY/edit#gid=0
 
 ./load_data.sh neo4j ftphl true '/Users/hthai00/Google\ Drive/projects/bread/' ""
+
+## neo4j apoc plugin, repo:
+https://github.com/neo4j-contrib/neo4j-apoc-procedures
+# compile
+git clone http://github.com/neo4j-contrib/neo4j-apoc-procedures
+cd neo4j-apoc-procedures
+./gradlew shadow
+cp build/libs/apoc-<version>-all.jar $NEO4J_HOME/plugins/
+$NEO4J_HOME/bin/neo4j restart
+
+## apoc commands:
+CALL apoc.meta.graph()
+CALL apoc.meta.schema()
