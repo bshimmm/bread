@@ -74,7 +74,7 @@ LOAD CSV WITH HEADERS FROM "file:///nexus.csv" AS line FIELDTERMINATOR '|'
 CREATE (:Nexus {
     id: line.id, title: line.title,
     desc: line.desc, start_date: line.start_date, end_date: line.end_date,
-    approved: line.approved, status: line.status, upvote: line.upvote,
+    approved: line.approved, status: line.status, upvote: line.upvote, progress_state: line.progress_state,
     created: timestamp(), updated: timestamp()
   }
 );
