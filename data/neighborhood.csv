@@ -1,26 +1,26 @@
-id|name|type
-bf1394fa-1862-50eb-b5da-f9d84e552c3a|North Philadelphia|neighborhood
-aa61fb3b-459f-5a91-b8ee-02d2fc1f887d|Queen Village|neighborhood
-adda1ac0-a059-5fbd-bcae-d5d3666257a9|Center City|neighborhood
-e57f8ef0-be53-5426-89da-0775f988f793|University City|neighborhood
-4db0cff6-c84e-5b31-bd3c-f40e1704be1a|Manayunk|neighborhood
-cf3dacda-45d5-57ef-bff3-244edf692876|Bella Vista|neighborhood
-e3e49a14-bca4-54ce-a60c-02c15d1cfd65|Southwest Philadelphia|neighborhood
-009d153f-6cdf-5f4e-8e37-00ffb5db1f4e|Passyunk Square|neighborhood
-e361dfd6-2a19-5874-9ea6-5cb1b07dbd29|Powelton Village|neighborhood
-b60e29a1-8bfe-5455-9640-b348d7e8a35d|Spruce Hill|neighborhood
-4a0563d0-6eb9-581c-a236-e8ed14fd6602|South Philadelphia|neighborhood
-0ba91cf5-1b40-543b-9e2b-2805e90223e1|Graduate Hospital|neighborhood
-c377b5d2-d592-52e6-9cb8-668e1fe105ae|Fishtown|neighborhood
-62f2ee7a-0c36-547b-a1f1-ef440421d098|East Mount Airy|neighborhood
-b8ef7fd4-b302-5565-9f43-952fcad5c6d0|Brewerytown|neighborhood
-73e04d8a-36cd-556b-8a43-ce34c49df686|West Philadelphia|neighborhood
-cfc053e5-de1b-5dc7-b7a6-0106115923d8|Juniata Park/Feltonville|neighborhood
-4922aa46-5cea-51a7-8f92-c817b9ceb3be|Chestnut Hill|neighborhood
-59f17aae-36fd-5abf-b376-7c592b465ea7|Mount Airy|neighborhood
-9b5b2f91-80d6-56b3-9478-f32ed591286f|Wynnefield|neighborhood
-540582a2-a03b-5402-8070-b724b20ad74d|Wynnefield Heights|neighborhood
-e13136ab-7f91-5eb0-a7fe-ea7c7dab8126|Logan/Ogontz/Fern Rock|neighborhood
-0925cd60-2266-554b-b071-9ebeed32b906|Wyncote|locality
-4f479949-588e-58f3-ba7e-7f6d17e28f0e|Fairmount Park|neighborhood
-c86346fa-d800-5175-8f10-e4fdad0e977b|Allegheny West|neighborhood
+id|name|type|latitude|longitude
+bf1394fa-1862-50eb-b5da-f9d84e552c3a|North Philadelphia|neighborhood||
+aa61fb3b-459f-5a91-b8ee-02d2fc1f887d|Queen Village|neighborhood||
+adda1ac0-a059-5fbd-bcae-d5d3666257a9|Center City|neighborhood||
+e57f8ef0-be53-5426-89da-0775f988f793|University City|neighborhood||
+4db0cff6-c84e-5b31-bd3c-f40e1704be1a|Manayunk|neighborhood||
+cf3dacda-45d5-57ef-bff3-244edf692876|Bella Vista|neighborhood||
+e3e49a14-bca4-54ce-a60c-02c15d1cfd65|Southwest Philadelphia|neighborhood||
+009d153f-6cdf-5f4e-8e37-00ffb5db1f4e|Passyunk Square|neighborhood||
+e361dfd6-2a19-5874-9ea6-5cb1b07dbd29|Powelton Village|neighborhood||
+b60e29a1-8bfe-5455-9640-b348d7e8a35d|Spruce Hill|neighborhood||
+4a0563d0-6eb9-581c-a236-e8ed14fd6602|South Philadelphia|neighborhood||
+0ba91cf5-1b40-543b-9e2b-2805e90223e1|Graduate Hospital|neighborhood||
+c377b5d2-d592-52e6-9cb8-668e1fe105ae|Fishtown|neighborhood||
+62f2ee7a-0c36-547b-a1f1-ef440421d098|East Mount Airy|neighborhood||
+b8ef7fd4-b302-5565-9f43-952fcad5c6d0|Brewerytown|neighborhood||
+73e04d8a-36cd-556b-8a43-ce34c49df686|West Philadelphia|neighborhood||
+cfc053e5-de1b-5dc7-b7a6-0106115923d8|Juniata Park/Feltonville|neighborhood||
+4922aa46-5cea-51a7-8f92-c817b9ceb3be|Chestnut Hill|neighborhood||
+59f17aae-36fd-5abf-b376-7c592b465ea7|Mount Airy|neighborhood||
+9b5b2f91-80d6-56b3-9478-f32ed591286f|Wynnefield|neighborhood||
+540582a2-a03b-5402-8070-b724b20ad74d|Wynnefield Heights|neighborhood||
+e13136ab-7f91-5eb0-a7fe-ea7c7dab8126|Logan/Ogontz/Fern Rock|neighborhood||
+0925cd60-2266-554b-b071-9ebeed32b906|Wyncote|locality||
+4f479949-588e-58f3-ba7e-7f6d17e28f0e|Fairmount Park|neighborhood||
+c86346fa-d800-5175-8f10-e4fdad0e977b|Allegheny West|neighborhood||

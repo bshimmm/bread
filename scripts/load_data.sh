@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## example: ./setup_db.sh bolt://localhost:7687 neo4j ftphl
+## example of script command: ./load_data.sh bolt://localhost:7687 neo4j ftphl true "../" "/apps/neo4j"
 
 host="${1}" ## example: bolt://localhost:7687
 username="${2}"
