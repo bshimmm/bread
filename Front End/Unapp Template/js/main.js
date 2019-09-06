@@ -229,6 +229,7 @@
 		}
 	};
 
+
 	// Owl Carousel
 	var owlCrouselFeatureSlide = function() {
 		var owl = $('.owl-carousel');
@@ -256,6 +257,12 @@
 		$('.player').mb_YTPlayer();
 	};
 
+var tab = function(){
+$('#bologna-list a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+}
 	
 	$(function(){
 		mobileMenuOutsideClick();
@@ -270,6 +277,9 @@
 		counterWayPoint();
 		owlCrouselFeatureSlide();
 		bgVideo();
+		tab();
+
+
 	});
 
 
