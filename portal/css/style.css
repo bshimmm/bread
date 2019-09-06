@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
     font-weight: 700; }
     .colorlib-nav #colorlib-logo a {
       position: relative;
@@ -748,6 +749,7 @@ h1, h2, h3, h4, h5, h6, figure {
 article {
   background: #fff;
   padding: 35px;
+
   margin-bottom: 40px;
   -webkit-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
@@ -755,7 +757,7 @@ article {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  border-radius: 4px; }
+  border-radius: 20px; }
   article h2 {
     font-weight: 400;
     margin-bottom: 15px; }
@@ -772,14 +774,15 @@ article {
       top: 0;
       left: 0;
       display: block;
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
     article p.author-wrap .author {
-      padding-left: 40px;
+      padding-left: 70px;
+
       color: #303133;
       font-size: 12px; }
 
@@ -1071,7 +1074,7 @@ input[type="text"] {
         font-size: 30px; } }
 
 #colorlib-footer {
-  background: #1f252d;
+  background: #303133;
   color: rgba(255, 255, 255, 0.6) !important;
   padding-top: 6em; }
   #colorlib-footer .colorlib-widget p {
@@ -1112,7 +1115,7 @@ input[type="text"] {
     letter-spacing: 3px;
     font-weight: 700; }
   #colorlib-footer .copy {
-    background: #1b2027;
+    background: #262626;
     padding: 7em 0; }
     #colorlib-footer .copy p {
       margin-bottom: 0;
@@ -1326,9 +1329,7 @@ input[type="text"] {
   border-bottom: none !important; }
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
-      margin-top: 7px;
-      margin-right: 15px;
-      display: block;} }
+      display: block; } }
 
 .btn {
   margin-right: 4px;
@@ -1484,4 +1485,145 @@ input[type="text"] {
   background: url(../images/loader.gif) center no-repeat #fff; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity: 7; }
+
+
+  input[type=text] {
+  max-width: 130px;
+
+  -webkit-transition: width 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+
+/*heart*/
+
+[id='toggle-heart'] {
+  position: absolute;
+
+  left: -100vw;
+}
+
+[for='toggle-heart'] {
+  color: #aab8c2;
+}
+
+[id='toggle-heart']:checked + label {
+  color: #e2264d;
+}
+[for='toggle-heart'] {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* horizontal alignment */
+  margin: 0;
+  height: 100vh; /* the viewport height */
+}
+
+/* vertical alignment, needs the height of
+   the body to be equal to that of the
+   viewport if we want it in the middle */
+[for='toggle-heart'] {
+  align-self: center;
+  height: 9vh;
+}
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+.tabcontent {
+  display: none;
+
+}
+
+.tabcontent1{
+  display: block;
+}
+
+
+.but-like{
+  border-radius: 8px;
+}
+
+
+
+.but-like1{
+  position: relative;
+  bottom: 6px;
+  border-radius: 8px;
+
+  font-size:10px
+}
+
+.lm{
+  position: relative;
+  left:215px;
+  bottom:77px;
+
+}
+
+.result{
+  position: relative;
+  left: 63px;
+  bottom: 56px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  z-index: 5;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
