@@ -1,5 +1,16 @@
 USING PERIODIC COMMIT 10000
 
+// load user
+LOAD CSV WITH HEADERS FROM "file:///user.csv" AS line FIELDTERMINATOR '|'
+CREATE (:User {
+    id: line.id, username: line.username, email: line.email, 
+    given_name: line.given_name, surname: line.surname, 
+    status: line.status, about: line.about, facebook_profile: 
+    line.facebook_profile, password: line.password,
+    created: timestamp(), updated: timestamp()
+  }
+);
+
 // load country
 LOAD CSV WITH HEADERS FROM "file:///country.csv" AS line FIELDTERMINATOR '|'
 CREATE (:Country {
@@ -68,6 +79,12 @@ LOAD CSV WITH HEADERS FROM "file:///region.csv" AS line FIELDTERMINATOR '|'
 MATCH (region:Region {id: line.id})
 MATCH (city:City {id: line.city_id})
 MERGE (region)-[:HAS_CITY]->(city);
+
+// create relationship: user -> city
+LOAD CSV WITH HEADERS FROM "file:///user.csv" AS line FIELDTERMINATOR '|'
+MATCH (city:City {id: line.city_id})
+MATCH (user:User {id: line.id})
+MERGE (user)-[:RESIDES_IN]->(city);
 
 // load nexus
 LOAD CSV WITH HEADERS FROM "file:///nexus.csv" AS line FIELDTERMINATOR '|'
